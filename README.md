@@ -28,7 +28,7 @@ The model was trained on an AMD Ryzen CPU, 16GB of RAM (clock speed: 3200Hz), an
 
 # Hyperparameter Tuning
 We optimized the following hyperparameters during training:
-  1. The number of Transformer-XL blocks is 2 and attention heads is .
+  1. The number of Transformer-XL blocks is 2 and attention heads is 2.
   2. The size of the GRU/LSTM hidden layers is 64.
   3. Optimizer is Adam.
   4. We found that a specific combination of these parameters produced the best results in terms of accuracy and F1 score, particularly for detecting cyberbullying in a resource-limited language like Bengali.
